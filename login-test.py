@@ -19,8 +19,8 @@ username_field = driver.find_element(By.XPATH, '//input[@name="username"]')
 password_field = driver.find_element(By.XPATH, '//input[@name="password"]')
 login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
-username = "pembeli2"
-password = "pembeli2"
+username = "Haikal ramadhan"
+password = "haikal"
 
 username_field.send_keys(username)
 time.sleep(2)
@@ -28,6 +28,23 @@ password_field.send_keys(password)
 time.sleep(2)
 login_button.click()
 time.sleep(5)
+
+current_url = driver.current_url
+
+if '/user/' in current_url:
+    status = "succesful"
+elif '/' in current_url:
+    status = "login gagal"
+else:
+    status = "Failed (Unknown error)"
+
+current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+with open('uji-fungsionalitas.txt', 'a') as file:
+    if "<h1>Internal Server Error</h1>" in driver.page_source:
+        file.write(f"Fitur Login - Diuji pada: {current_datetime} - Status: Error - Internal Server Error\n")
+    else:
+        file.write(f"Fitur Login - Diuji pada: {current_datetime} - Status: {status}\n")
 
 
 
