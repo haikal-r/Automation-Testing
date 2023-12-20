@@ -3,3 +3,18 @@ Fitur register - Diuji pada: 2023-12-20 14:36:15 - Status: succesful
 Fitur register - Diuji pada: 2023-12-20 14:39:07 - Status: login gagal
 Fitur register - Diuji pada: 2023-12-20 14:40:23 - Status: succesful
 Fitur Login - Diuji pada: 2023-12-20 14:40:57 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-20 14:51:03 - Status: login gagal
+Fitur Login - Diuji pada: 2023-12-20 16:41:07 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:41:47 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:43:06 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:48:05 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:50:07 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:51:10 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:52:59 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:56:18 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 16:58:45 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 17:01:14 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 17:02:07 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 17:04:18 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 17:05:50 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-20 17:09:46 - Status: succesful
