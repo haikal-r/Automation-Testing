@@ -22,8 +22,8 @@ try:
     login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
 
-    username = "pembeli2"
-    password = "pembeli2"
+    username = "Haikal ramadhan"
+    password = "haikal"
 
     username_field.send_keys(username)
     time.sleep(3)
@@ -45,6 +45,7 @@ try:
     time.sleep(3)
 
     driver.execute_script("window.scrollBy(0, 500);")
+    time.sleep(3)
     tombol_update = driver.find_element(By.XPATH, "//button[text()='Buat Pesanan']")
     tombol_update.click()
     time.sleep(5)
@@ -52,7 +53,7 @@ try:
 
     alert = Alert(driver)
     alert.accept()
-    time.sleep(3)
+    time.sleep(2)
     
     current_url = driver.current_url
 

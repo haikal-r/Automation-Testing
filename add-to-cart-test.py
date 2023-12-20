@@ -30,9 +30,14 @@ try:
     login_button.click()
     time.sleep(3)
 
-    driver.get("http://localhost/Penjual-Herbal/user/detail.php?id=66")
+    driver.execute_script("window.scrollBy(0, 500);")
     time.sleep(3)
 
+    driver.get("http://localhost/Penjual-Herbal/user/detail.php?id=83")
+    time.sleep(3)
+
+    driver.execute_script("window.scrollBy(0, 500);")
+    time.sleep(3)
     beli_button = driver.find_element(By.XPATH, '//button[@name="beli"]')
     beli_button.click()
     time.sleep(3)

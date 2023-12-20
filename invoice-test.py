@@ -21,34 +21,38 @@ try:
     password_field = driver.find_element(By.XPATH, '//input[@name="password"]')
     login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
-    username = "pembeli2"
-    password = "pembeli2"
+
+    username = "Haikal ramadhan"
+    password = "haikal"
 
     username_field.send_keys(username)
-    time.sleep(1)
+    time.sleep(3)
     password_field.send_keys(password)
-    time.sleep(1)
+    time.sleep(3)
     login_button.click()
-    time.sleep(1)
-
-    cart_link = driver.find_element(By.XPATH, "//a[@href='../user/keranjang.php']")
-
-    # Click on the cart link
-    cart_link.click()
     time.sleep(3)
 
-    checkout_button = driver.find_element(By.XPATH, "//button[text()='Checkout']")
+     # Wait for the user circle icon to be clickable
+    user_circle = driver.find_element(By.CLASS_NAME, 'fa-user-circle')
 
-    # Click on the Checkout button
-    checkout_button.click()
-
-    pesanan_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
-    pesanan_button.click()
+    # Click the user circle icon
+    user_circle.click()
     time.sleep(3)
 
-    alert = Alert(driver)
-    alert.accept()
+    # Wait for the "Transaksi" link to be clickable
+    transaksi_link = driver.find_element(By.XPATH, '//a[text()="Transaksi"]')
+
+    # Click the "Transaksi" link
+    transaksi_link.click()
     time.sleep(3)
+
+    invoice_link = driver.find_element(By.XPATH, '//a[text()="Lihat Invoice"]')
+    time.sleep(3)
+    invoice_link.click()
+    time.sleep(3)
+    driver.execute_script("window.scrollBy(0, 100);")
+    time.sleep(5)
+
     
     current_url = driver.current_url
 
@@ -67,9 +71,9 @@ current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 with open('uji-fungsionalitas.txt', 'a') as file:
     if "<h1>Internal Server Error</h1>" in driver.page_source:
-        file.write(f"Fitur Login - Diuji pada: {current_datetime} - Status: Error - Internal Server Error\n")
+        file.write(f"Fitur Checkout - Diuji pada: {current_datetime} - Status: Error - Internal Server Error\n")
     else:
-        file.write(f"Fitur Login - Diuji pada: {current_datetime} - Status: {status}\n")
+        file.write(f"Fitur Checkout - Diuji pada: {current_datetime} - Status: {status}\n")
 
 
 
