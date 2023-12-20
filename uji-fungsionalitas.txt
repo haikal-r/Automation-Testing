@@ -18,3 +18,5 @@ Fitur Login - Diuji pada: 2023-12-20 17:02:07 - Status: Gagal
 Fitur Login - Diuji pada: 2023-12-20 17:04:18 - Status: Gagal
 Fitur Login - Diuji pada: 2023-12-20 17:05:50 - Status: succesful
 Fitur Login - Diuji pada: 2023-12-20 17:09:46 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-20 17:17:46 - Status: Gagal
+Fitur Login - Diuji pada: 2023-12-20 17:19:30 - Status: succesful
