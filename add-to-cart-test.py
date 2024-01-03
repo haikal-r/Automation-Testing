@@ -20,7 +20,7 @@ try:
     password_field = driver.find_element(By.XPATH, '//input[@name="password"]')
     login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
-    username = "Haikal ramadhan"
+    username = "Haikal"
     password = "haikal"
 
     username_field.send_keys(username)

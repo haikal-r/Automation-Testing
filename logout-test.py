@@ -30,6 +30,19 @@ try:
     login_button.click()
     time.sleep(5)
 
+    user_circle = driver.find_element(By.CLASS_NAME, 'fa-user-circle')
+
+    # Click the user circle icon
+    user_circle.click()
+    time.sleep(3)
+
+    # Wait for the "Transaksi" link to be clickable
+    logout_link = driver.find_element(By.XPATH, '//a[text()="Logout"]')
+
+    # Click the "logout" link
+    logout_link.click()
+    time.sleep(3)
+
     current_url = driver.current_url
 
     if '/user/' in current_url:

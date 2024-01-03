@@ -23,3 +23,36 @@ Fitur Checkout - Diuji pada: 2023-12-20 22:17:14 - Status: Gagal
 Fitur Checkout - Diuji pada: 2023-12-20 22:21:49 - Status: Gagal
 Fitur Checkout - Diuji pada: 2023-12-20 22:22:51 - Status: Gagal
 Fitur Checkout - Diuji pada: 2023-12-20 22:24:17 - Status: login gagal
+Fitur register - Diuji pada: 2023-12-22 16:29:11 - Status: login gagal
+Fitur register - Diuji pada: 2023-12-22 16:31:20 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-22 16:36:48 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-22 16:38:55 - Status: succesful
+Fitur Login - Diuji pada: 2023-12-22 16:39:50 - Status: succesful
+Fitur Checkout - Diuji pada: 2023-12-22 16:40:54 - Status: succesful
+Fitur Checkout - Diuji pada: 2023-12-22 16:41:59 - Status: succesful
+Fitur Checkout - Diuji pada: 2023-12-22 16:46:03 - Status: login gagal
+Fitur Checkout - Diuji pada: 2023-12-22 16:55:22 - Status: login gagal
+Fitur Checkout - Diuji pada: 2023-12-22 16:58:57 - Status: login gagal
+Fitur Checkout - Diuji pada: 2023-12-22 17:09:30 - Status: login gagal
+Fitur Login - Diuji pada: 2023-12-22 17:13:17 - Status: login gagal
+Fitur Login - Diuji pada: 2024-01-03 01:16:50 - Status: succesful
+Fitur Checkout - Diuji pada: 2024-01-03 01:27:20 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 01:35:44 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 16:42:56 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 16:50:38 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 16:54:58 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 16:58:15 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:00:14 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:01:03 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:04:02 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:05:41 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:09:30 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:12:15 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:13:38 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:14:51 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:16:21 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:17:41 - Status: Gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:29:58 - Status: login gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:31:26 - Status: login gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:35:12 - Status: login gagal
+Fitur Checkout - Diuji pada: 2024-01-03 17:36:19 - Status: Gagal

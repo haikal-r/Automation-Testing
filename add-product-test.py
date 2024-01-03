@@ -22,8 +22,8 @@ try:
     login_button = driver.find_element(By.XPATH, '//button[@type="submit"]')
 
 
-    username = "admin"
-    password = "admin"
+    username = "Risky"
+    password = "Risky"
 
     username_field.send_keys(username)
     time.sleep(3)
@@ -32,10 +32,10 @@ try:
     login_button.click()
     time.sleep(3)
 
-    shop_link = driver.find_element(By.CLASS_NAME, 'fa-shop')
+    shop_icon = driver.find_element(By.CLASS_NAME, 'fa-shop')
 
     # Click the user circle icon
-    shop_link.click()
+    shop_icon.click()
     time.sleep(3)
 
     product_link = driver.find_element(By.XPATH, "//div[contains(text(), 'Produk')]/..")
@@ -47,15 +47,15 @@ try:
     time.sleep(3)
 
     input_nama_barang = driver.find_element(By.NAME, "nama_barang")
-    input_nama_barang.send_keys("Herbalife")
+    input_nama_barang.send_keys("Tropicana Slim Sweetener Stevia")
     time.sleep(3)
 
     input_harga = driver.find_element(By.NAME, "harga")
-    input_harga.send_keys("10000")
+    input_harga.send_keys("40000")
     time.sleep(3)
 
     input_deskripsi = driver.find_element(By.NAME, "deskripsi")
-    input_deskripsi.send_keys("Produk terbaik")
+    input_deskripsi.send_keys("Stevia adalah pemanis buatan yang berasal dari daun tanaman Stevia rebaudiana. Tanaman ini berasal dari Amerika Selatan dan telah digunakan untuk makanan dan pengobatan selama ratusan tahun. Produk ini cocok Untuk anda yang sedang berdiet atau seda")
     time.sleep(3)
 
     input_stok = driver.find_element(By.NAME, "stok")
@@ -69,6 +69,7 @@ try:
 
     tombol_submit =  driver.find_element(By.XPATH, '//input[@type="submit"]')
     tombol_submit.click()
+    time.sleep(2)
     
     current_url = driver.current_url
 
