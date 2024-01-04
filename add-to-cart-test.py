@@ -45,6 +45,7 @@ try:
     current_url = driver.current_url
 
     if '/user/' in current_url:
+        
         status = "succesful"
     elif '/' in current_url:
         status = "login gagal"

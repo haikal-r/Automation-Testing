@@ -47,16 +47,16 @@ try:
     # Click edit button
     tombol_edit = driver.find_element(By.XPATH, "//a[text()='Edit']")
     tombol_edit.click()
-    time.sleep(3)
+    time.sleep(5)
 
     # Find Element
     input_nama_barang = driver.find_element(By.NAME, "nama")
 
     # Input data product
     input_nama_barang.clear()
-    time.sleep(2)
-    input_nama_barang.send_keys("Wyvern")
-    time.sleep(3)
+    time.sleep(5)
+    input_nama_barang.send_keys("Nofon")
+    time.sleep(5)
 
     # Submit Data Product
     tombol_submit =  driver.find_element(By.XPATH, "//button[text()='Update']")

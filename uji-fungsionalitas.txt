@@ -79,3 +79,4 @@ Fitur Checkout - Diuji pada: 2024-01-03 18:40:01 - Status: Gagal
 Fitur Checkout - Diuji pada: 2024-01-03 18:40:51 - Status: login gagal
 Fitur Checkout - Diuji pada: 2024-01-03 18:44:09 - Status: Gagal
 Fitur Checkout - Diuji pada: 2024-01-03 18:45:13 - Status: Gagal
+Fitur Login - Diuji pada: 2024-01-03 21:00:17 - Status: Gagal
